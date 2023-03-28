@@ -1,6 +1,6 @@
 let a = 8;
 let b = 5;
-let c = 10;
+let c = 7;
 let num = 2;
 //exercício 2
 
@@ -26,6 +26,14 @@ if(a > b && a > c){
 
 if(num > 0){
   console.log('positive');
-} else if (num < 0){
+} else if(num < 0){
   console.log('negative');
+};
+
+//exercicio 5
+
+if(a > 0 && b > 0 && c > 0){
+  console.log(true)
+}else{
+  console.log('Erro! Os ângulos do triângulo devem ser positivos')
 };
