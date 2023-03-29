@@ -43,7 +43,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // };
 // console.log(highestValue)
 
-// //Tópico 6
+// // Tópico 6
 
 // let oddValues = 0;
 
@@ -58,3 +58,13 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //   console.log('Nenhum valor ímpar encontrado');
 // };
 
+// // Tópico 7
+
+// let lowerValue = numbers[0];
+
+// for(let index = 0; index < numbers.length; index +=1){
+//   if(numbers[index] < lowerValue){
+//     lowerValue = numbers[index]
+//   };
+// };
+// console.log(lowerValue)
