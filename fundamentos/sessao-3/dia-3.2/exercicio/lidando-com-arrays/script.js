@@ -68,3 +68,13 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //   };
 // };
 // console.log(lowerValue)
+
+// // Tópico 8
+
+// let array = [];
+// for(let index = 1; index <= 25; index +=1){
+//   array.push(index)
+// };
+// for(let indexArray = 0; indexArray < array.length; indexArray +=1){
+//   console.log(array[indexArray] / 2)
+// }
