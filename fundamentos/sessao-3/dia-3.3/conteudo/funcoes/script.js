@@ -1,5 +1,4 @@
 let sale = 200;
-let tx = 0;
 
 function addSale(value){
   return sale + value;
@@ -15,11 +14,10 @@ function subtractSale(value){
 subtractSale(20);
 
 function multiplySale(value){
-  tx = sale * value
-  return sale += tx;
+  return sale * value;
 };
 
-multiplySale(0.10);
+multiplySale(2);
 
 function divideSale(value){
   return sale / value;
