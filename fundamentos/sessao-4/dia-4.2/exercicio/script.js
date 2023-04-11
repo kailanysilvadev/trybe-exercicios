@@ -17,3 +17,10 @@ const section = document.createElement('section');
 section.className = 'center-content';
 main.appendChild(section);
 
+// Requisito 4
+
+const paragraph = document.createElement('p');
+paragraph.innerHTML = '<b>Compre aqui sua passagem</b> e seja feliz';
+section.appendChild(paragraph);
+
+//  Requisito 5
