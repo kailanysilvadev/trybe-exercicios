@@ -37,3 +37,14 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //   }  
 // }
 // console.log(multiply)
+
+// Requisito 4
+let n = 5;
+let aux = "";
+for (let linha = 0; linha < n; linha++) {
+  for (let coluna = 0; coluna < n; coluna++) {
+    aux += "*";
+  }
+  console.log(aux);
+  aux = "";
+}
