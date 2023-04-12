@@ -85,3 +85,5 @@ main.removeChild(sectionLeft);
 sectionRight.style.marginRight = 'auto';
 
 // Bônus 5
+
+section.parentElement.style.color = 'green';
