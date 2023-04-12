@@ -79,3 +79,7 @@ title.className = 'title';
 // Bônus 3
 
 main.removeChild(sectionLeft);
+
+// Bônus 4
+
+sectionRight.style.textAlign = 'center';
