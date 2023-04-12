@@ -57,13 +57,25 @@ sectionRight.appendChild(ul);
 
 // Requisito 9
 
-const creatingH3 = () => document.createElement('h3');
+const creatingH3 = (classe) => {
+  let h3 = document.createElement('h3');
+  h3.className = classe;
+  return h3;
+};
 
-
-const title1 = creatingH3();
-const title2 = creatingH3();
-const title3 = creatingH3();
+const title1 = creatingH3('description');
+const title2 = creatingH3('description');
+const title3 = creatingH3('description');
 main.appendChild(title1);
 main.appendChild(title2);
 main.appendChild(title3);
-console.log(title1);
+
+// Bônus 1
+
+title.className = 'title';
+
+// Bônus 2 feita na função requisito 9
+
+// Bônus 3
+
+main.removeChild(sectionLeft);
