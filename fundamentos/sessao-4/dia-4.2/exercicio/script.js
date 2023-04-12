@@ -1,7 +1,7 @@
 // Requisito 1
 
 const title = document.createElement('h1');
-title.innerText = 'TrybeTrip - Agência de Viagens'
+title.innerText = 'TrybeTrip - Agência de Viagens';
 const getBody = document.querySelector('body');
 getBody.appendChild(title);
 
@@ -55,3 +55,15 @@ for(let index = 0; index < liContent.length; index +=1){
 }
 sectionRight.appendChild(ul);
 
+// Requisito 9
+
+const creatingH3 = () => document.createElement('h3');
+
+
+const title1 = creatingH3();
+const title2 = creatingH3();
+const title3 = creatingH3();
+main.appendChild(title1);
+main.appendChild(title2);
+main.appendChild(title3);
+console.log(title1);
