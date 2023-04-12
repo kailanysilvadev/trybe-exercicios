@@ -82,4 +82,6 @@ main.removeChild(sectionLeft);
 
 // Bônus 4
 
-sectionRight.style.textAlign = 'center';
+sectionRight.style.marginRight = 'auto';
+
+// Bônus 5
